@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Meaningful AI use in design — Rohan Baruah</title>
+  <meta name="description" content="The design process didn’t disappear when it stopped being linear, and it won’t disappear with AI. It may be time to rebundle it around a repo that holds the context." />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Rohan Baruah" />
+  <meta property="og:title" content="Meaningful AI use in design — Rohan Baruah" />
+  <meta property="og:description" content="The design process didn’t disappear when it stopped being linear, and it won’t disappear with AI. It may be time to rebundle it around a repo that holds the context." />
+  <meta property="og:url" content="__SITE__meaningful-ai-use-in-design.html" />
+  <meta property="og:image" content="__SITE__assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..600;1,7..72,200..600&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="is-ready page-article">
+  <header class="nav" aria-label="Primary">
+    <a class="nav__mark" href="index.html">Rohan Baruah</a>
+    <nav class="nav__links"><a href="index.html#stories">All stories</a></nav>
+  </header>
+
+  <main>
+    <header class="art__head">
+      <p class="eyebrow">Essay 01 · 4 min read</p>
+      <h1 class="art__title">Meaningful AI use in design</h1>
+      <p class="art__dek">The design process didn’t disappear when it stopped being linear, and it won’t disappear with AI. But it may be time to take it apart and rebundle it around the thing that now holds the context.</p>
+    </header>
+
+    <!-- Interactive figure: linear → agile → rebundled around a repo -->
+    <figure class="rb" id="rebundle" aria-labelledby="rb-cap">
+      <div class="rb__tabs" role="group" aria-label="How the design process has been shaped">
+        <button type="button" class="rb__tab" data-state="linear" aria-pressed="true"><span>01</span>Linear</button>
+        <button type="button" class="rb__tab" data-state="agile" aria-pressed="false"><span>02</span>Agile</button>
+        <button type="button" class="rb__tab" data-state="hub" aria-pressed="false"><span>03</span>Rebundled around AI</button>
+      </div>
+      <div class="rb__canvas"><svg class="rb__svg" role="img" aria-label="Diagram of the design process: first as a line, then as a loop, then rebundled around a central repo with plugs feeding it and skills operating on it."></svg></div>
+      <figcaption class="rb__foot">
+        <p class="rb__cap" id="rb-cap" aria-live="polite"></p>
+        <ul class="rb__legend" aria-label="Legend">
+          <li><i class="lg lg--plug"></i>Plug — what the repo knows</li>
+          <li><i class="lg lg--skill"></i>Skill — what the repo can do</li>
+          <li><i class="lg lg--person"></i>People — who directs it</li>
+        </ul>
+      </figcaption>
+    </figure>
+
+    <article class="art__body">
+      <h2>The line became a loop</h2>
+      <p>For a long time the design process was drawn as a line. Research, then synthesis, then ideas, then design, then a prototype, then a presentation to the people who decide. Each stage finished before the next began, and each handoff was a document.</p>
+      <p>Agile bent that line into a loop. Cycles got shorter; teams shipped sooner and learned faster. But look closely and the parts are the same parts. The order changed and the tempo changed. The process didn’t go anywhere.</p>
+
+      <h2>Augmenting is the obvious move</h2>
+      <p>Most conversations about AI in design start from that loop and ask where AI can help. Synthesis gets faster. Mock-ups appear in minutes. The deck writes its own first draft.</p>
+      <p>All of that is useful, and all of it leaves the shape intact. You get a faster version of the old workflow, where every stage still produces a file for the next one, and context still leaks at every handoff.</p>
+
+      <blockquote class="art__pull">Instead of asking how AI can augment the process, ask how the process would be bundled if AI were at the centre.</blockquote>
+
+      <h2>Put the repo at the centre</h2>
+      <p>That is the question we’ve been working with: if AI were at the centre, how would design work? What has been working for us is surprisingly plain. A GitHub repo sits at the centre of the work and becomes the team’s source of intelligence. Everything else either plugs into it or operates on it.</p>
+
+      <h3>Plugs: what the repo knows</h3>
+      <p>Plugs are modular sources of context. Each can be swapped or refreshed without disturbing the rest.</p>
+      <dl class="art__list">
+        <div><dt>Research</dt><dd>Interviews, studies and notes, committed as they happen.</dd></div>
+        <div><dt>Customer data</dt><dd>Feedback, tickets and conversations, in the customer’s own words.</dd></div>
+        <div><dt>Product data</dt><dd>Usage and telemetry to check the work against.</dd></div>
+        <div><dt>Strategy &amp; specs</dt><dd>Goals, roadmaps and specs, so every output knows what it is for.</dd></div>
+        <div><dt>Design system</dt><dd>Tokens, components and guidelines: the rules the output has to follow.</dd></div>
+        <div><dt>Boilerplate</dt><dd>A starter built on production-ready components, so what we design is close to what ships.</dd></div>
+      </dl>
+
+      <h3>Skills: what the repo can do</h3>
+      <p>Everything else on the repo exists as a skill: a small, reusable capability that reads from everything plugged in. One skill builds a good presentation from the research and the data. Another designs interfaces with the boilerplate’s real components. Others synthesise research, turn it into something people can see, review work against the design system, or act as a thought partner on a hard decision.</p>
+      <p>Because every skill reads from the same source, the deck and the interface argue from the same evidence. And new capability is additive: write a skill once and the whole team has it. The <a href="index.html#skill">Thought Partner</a> skill on this site is one of them.</p>
+
+      <h3>People: who directs it</h3>
+      <p>Designers work on the repo together, reviewing changes rather than passing files, or run an agent on it to do the legwork. Prototyping shrinks, because the boilerplate is already production-grade. Ideation stops being a stage; it happens wherever someone asks a better question, with a thought-partner skill to push back.</p>
+      <p>What moves is the designer’s job: less time producing each artefact, more time framing the problem, choosing what goes into the repo and judging what comes out.</p>
+
+      <h2>What it asks of us</h2>
+      <p>It isn’t free. Plugs go stale. Skills carry opinions, and opinions date. So we treat both like product: reviewed, versioned, and retired when they stop earning their place.</p>
+      <p>AI won’t replace the design process. It gives us a reason to take it apart and put it back together around the thing that now holds the context, and to spend what we save on clarity and judgement.</p>
+
+      <footer class="art__end">
+        <p class="art__sign">— Rohan Baruah</p>
+        <div class="art__next">
+          <a class="btn btn--ink" href="index.html#stories"><span aria-hidden="true">←</span> All stories</a>
+          <a class="btn btn--ghost" href="index.html#skill">Use the skill <span aria-hidden="true">→</span></a>
+        </div>
+      </footer>
+    </article>
+  </main>
+
+  <script src="ai-figure.js" defer></script>
+</body>
+</html>

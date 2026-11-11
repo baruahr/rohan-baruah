@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>To process or not to — Rohan Baruah</title>
+  <meta name="description" content="There is no design process — or there is one each of us follows. What stays constant are the principles. Context decides the dosage." />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Rohan Baruah" />
+  <meta property="og:title" content="To process or not to — Rohan Baruah" />
+  <meta property="og:description" content="There is no design process — or there is one each of us follows. What stays constant are the principles. Context decides the dosage." />
+  <meta property="og:url" content="__SITE__to-process-or-not-to.html" />
+  <meta property="og:image" content="__SITE__assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..600;1,7..72,200..600&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="is-ready page-article">
+  <header class="nav" aria-label="Primary">
+    <a class="nav__mark" href="index.html">Rohan Baruah</a>
+    <nav class="nav__links"><a href="index.html#stories">All stories</a></nav>
+  </header>
+
+  <main>
+    <header class="art__head">
+      <p class="eyebrow">Essay 02 · 5 min read</p>
+      <h1 class="art__title">To process or not to</h1>
+      <p class="art__dek">Every few years someone declares the design process dead. I don’t think there was ever one you could prescribe. There are principles, and there is context.</p>
+    </header>
+
+    <!-- Interactive figure: same principles, different dosage -->
+    <figure class="pd" id="dosage" aria-labelledby="pd-cap">
+      <div class="pd__tabs" role="group" aria-label="Choose a context">
+        <button type="button" class="pd__tab" data-ctx="medical" aria-pressed="true">Medical device</button>
+        <button type="button" class="pd__tab" data-ctx="fintech" aria-pressed="false">Financial product</button>
+        <button type="button" class="pd__tab" data-ctx="enterprise" aria-pressed="false">Enterprise software</button>
+        <button type="button" class="pd__tab" data-ctx="consumer" aria-pressed="false">Consumer app</button>
+      </div>
+
+      <div class="pd__panel">
+        <div class="pd__ruler" aria-hidden="true"><span>Start</span><span class="pd__passes">1 pass</span><span>Ship</span></div>
+        <div class="pd__track" role="img" aria-label="Time from start to ship, divided among the six principles"></div>
+        <dl class="pd__meters">
+          <div><dt>Cost of being wrong</dt><dd class="pd__dots" data-meter="wrong"></dd></div>
+          <div><dt>Cost of change</dt><dd class="pd__dots" data-meter="change"></dd></div>
+        </dl>
+      </div>
+
+      <figcaption class="pd__foot">
+        <p class="pd__cap" id="pd-cap" aria-live="polite"></p>
+        <ul class="pd__legend" aria-label="The six principles">
+          <li data-p="0"><i></i>Seek clarity</li>
+          <li data-p="1"><i></i>Ask</li>
+          <li data-p="2"><i></i>Converge</li>
+          <li data-p="3"><i></i>Build</li>
+          <li data-p="4"><i></i>Break</li>
+          <li data-p="5"><i></i>Come back</li>
+        </ul>
+      </figcaption>
+    </figure>
+
+    <article class="art__body">
+      <h2>The argument that won’t die</h2>
+      <p>Is the design process dead? Do we still need one? The question comes back every few years, usually alongside a new diagram. Diamonds, sprints, workshops with sticky notes. Then the counter-argument: process slows teams down, real work is messier than any diagram.</p>
+      <p>Both sides are arguing about the drawing. I think they’re missing what the drawing was trying to describe.</p>
+
+      <h2>Everyone follows a process. Just not the same one.</h2>
+      <p>My belief has always been that there is no process, or rather, that there is one each of us follows individually. And if you look closely, we all do the same things.</p>
+      <dl class="art__list art__list--principles">
+        <div><dt data-p="0">Seek clarity</dt><dd>We go out looking for what is actually going on.</dd></div>
+        <div><dt data-p="1">Ask</dt><dd>We ask questions, especially the ones that change the answer.</dd></div>
+        <div><dt data-p="2">Converge</dt><dd>We narrow down and choose a direction.</dd></div>
+        <div><dt data-p="3">Build</dt><dd>We make it real enough to learn from.</dd></div>
+        <div><dt data-p="4">Break</dt><dd>We test it, stress it, and find where it fails.</dd></div>
+        <div><dt data-p="5">Come back</dt><dd>We return with what we learned and go again.</dd></div>
+      </dl>
+      <p>And then, finally, we arrive at something innately human that works for the people we are so dedicated to. That isn’t a process. Those are principles.</p>
+
+      <blockquote class="art__pull art__pull--green">There is no process. There are principles, and context decides how much of each you need.</blockquote>
+
+      <h2>Principles, not steps</h2>
+      <p>The difference matters. Steps tell you what to do next. Principles tell you what you can’t skip. You can’t skip clarity; you can only decide how long to spend finding it.</p>
+      <p>Underneath all six sits one habit: we’re as good as the questions we ask. Why are we designing this in the first place? Who is it for, and what are their mental models? How does it need to feel, instantly and over time? I’ve laid out how those questions work in practice, with real projects, in <a href="https://docs.google.com/presentation/d/16k9AybOxd73M2G6XYdPYN1022eR4tkaY_eeSBOTXgMY/edit?usp=sharing" target="_blank" rel="noopener">a deep dive into my secret sauce</a>.</p>
+
+      <h2>From prescription to context</h2>
+      <p>Over the last decade or so, I’ve watched us move from an era where a process was prescribed, and you moved through it stage by stage, to one where it all boils down to context.</p>
+      <p>Sometimes you still need to move slowly. Research hard, know everything, then move ahead. With medical devices, where the stakes are high and a change after launch can take months, that rigour is the job.</p>
+      <p>Software is different. It is cheap to make and cheap to break. You can be scrappier and faster, put something in front of people this week and come back with what you learned. Same principles; far more passes, each much shorter. Switch between the contexts in the figure above to see the shape change.</p>
+
+      <h2>Three questions that set the dosage</h2>
+      <p>So how much process should you follow? I think it comes down to understanding the nuances of three things.</p>
+      <dl class="art__list art__list--q">
+        <div><dt>Where you work</dt><dd>What does it cost to be wrong, and what does it cost to change your mind later?</dd></div>
+        <div><dt>Who you work for</dt><dd>What is the business trying to achieve, and how much risk can it carry right now?</dd></div>
+        <div><dt>Who you add value to</dt><dd>What is at stake for the person on the other end if you get it wrong?</dd></div>
+      </dl>
+      <p>The answers tell you how much of the process to follow, and how much you can safely leave out.</p>
+
+      <h2>So, to process or not to?</h2>
+      <p>Neither, really. Hold the principles constant and let context set the dosage. The skill isn’t following a process or rejecting one. It’s knowing which situation you’re in, and that is judgement.</p>
+
+      <footer class="art__end">
+        <p class="art__sign">— Rohan Baruah</p>
+        <div class="art__next">
+          <a class="btn btn--ink" href="index.html#stories"><span aria-hidden="true">←</span> All stories</a>
+          <a class="btn btn--ghost" href="meaningful-ai-use-in-design.html">Read: Meaningful AI use in design <span aria-hidden="true">→</span></a>
+        </div>
+      </footer>
+    </article>
+  </main>
+
+  <script src="process-figure.js" defer></script>
+</body>
+</html>
