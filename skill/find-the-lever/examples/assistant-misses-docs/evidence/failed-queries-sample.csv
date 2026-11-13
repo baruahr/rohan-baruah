@@ -1,0 +1,41 @@
+query_id,week,user_role,doc_source,doc_age_hours,doc_indexed,cause_label,user_next_action
+Q01,8,ops,Notes app,107,n/a,source_not_connected,gave_up
+Q02,8,support,Notes app,837,n/a,source_not_connected,used_search
+Q03,8,support,Drive,3,no,not_indexed_yet,gave_up
+Q04,8,engineering,Drive,367,yes,indexed_not_ranked,rephrased
+Q05,7,finance,n/a,,n/a,no_such_doc,gave_up
+Q06,10,engineering,Drive,7,no,not_indexed_yet,gave_up
+Q07,8,ops,Wiki,5,no,not_indexed_yet,gave_up
+Q08,9,marketing,Drive,10,no,not_indexed_yet,gave_up
+Q09,9,finance,Drive,726,yes,indexed_not_ranked,rephrased
+Q10,7,ops,Wiki,10,no,not_indexed_yet,used_search
+Q11,8,sales,n/a,,n/a,no_such_doc,gave_up
+Q12,10,engineering,Notes app,819,n/a,source_not_connected,gave_up
+Q13,9,engineering,Tickets,1203,yes,indexed_not_ranked,rephrased
+Q14,9,sales,Drive,8,no,not_indexed_yet,gave_up
+Q15,8,engineering,Local file,530,n/a,source_not_connected,gave_up
+Q16,7,sales,Drive,6,no,not_indexed_yet,gave_up
+Q17,10,ops,Wiki,188,yes,indexed_not_ranked,rephrased
+Q18,10,sales,Drive,14,no,not_indexed_yet,rephrased
+Q19,10,marketing,Wiki,341,yes,indexed_not_ranked,rephrased
+Q20,10,support,Notes app,330,n/a,source_not_connected,used_search
+Q21,10,ops,Drive,4,no,not_indexed_yet,gave_up
+Q22,7,sales,Wiki,13,no,not_indexed_yet,rephrased
+Q23,10,finance,Drive,8,no,not_indexed_yet,gave_up
+Q24,10,support,Wiki,18,no,not_indexed_yet,rephrased
+Q25,7,marketing,n/a,,n/a,no_such_doc,rephrased
+Q26,8,ops,Drive,19,no,not_indexed_yet,used_search
+Q27,7,ops,Wiki,747,yes,indexed_not_ranked,used_search
+Q28,8,ops,Wiki,19,no,not_indexed_yet,gave_up
+Q29,10,sales,Wiki,19,no,not_indexed_yet,used_search
+Q30,8,sales,n/a,,n/a,no_such_doc,gave_up
+Q31,7,sales,Wiki,19,no,not_indexed_yet,gave_up
+Q32,9,engineering,n/a,,n/a,no_such_doc,rephrased
+Q33,7,finance,Drive,2000,yes,indexed_not_ranked,gave_up
+Q34,7,ops,Wiki,3,no,not_indexed_yet,gave_up
+Q35,7,support,Notes app,739,n/a,source_not_connected,gave_up
+Q36,8,ops,Local file,331,n/a,source_not_connected,used_search
+Q37,7,ops,Notes app,500,n/a,source_not_connected,gave_up
+Q38,9,sales,Tickets,893,yes,indexed_not_ranked,gave_up
+Q39,7,finance,n/a,,n/a,no_such_doc,rephrased
+Q40,7,engineering,Notes app,488,n/a,source_not_connected,gave_up

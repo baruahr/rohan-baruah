@@ -70,7 +70,7 @@
 
   // ── Gentle reveal for content below the fold
   const targets = document.querySelectorAll(
-    '.essay, .skill__copy > *, .skillcard, .work__inner > *, .logos__label, .logos__grid li, .words__head'
+    '.essay, .skill__copy > *, .skill__pick, .skillcard, .skill__meta, .work__inner > *, .logos__label, .logos__grid li, .words__head'
   );
   targets.forEach((el, i) => {
     el.classList.add('reveal');
